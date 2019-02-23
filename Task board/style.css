@@ -1,0 +1,66 @@
+body {
+
+background-image: url("cork-board-frame.jpg");
+background-size: cover; 
+}
+
+H1 {text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-shadow: 3px 2px blue;
+    letter-spacing: 1px;
+}
+
+.input-box{
+    margin: auto;
+    width: 35%;
+    border: 3px solid blue;
+    padding: 25px;
+    border-radius: 50px; 
+    background-image: url("paper.png");
+    text-align:center;
+
+  }
+
+  .input{
+    margin: 4.px;
+    border: 2px solid blue;
+    padding: 5px;
+    border-radius: 50px; 
+    vertical-align: center;
+  }
+
+  .button {
+    margin: 4.px;
+    border-radius: 50px;
+  }
+
+  .button:hover {
+    cursor: pointer;
+  }
+
+  #board {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px; 
+    word-wrap: break-word;
+    
+}
+
+@keyframes fadeIn {
+  from {width: 0px;}
+  to {width: 250px;}
+
+  from {height: 0px;}
+  to {height: 250px;}
+}
+
+.glyphicon-remove:hover {
+  visibility: visible;
+  cursor: pointer;
+}
+
+
+  
+
+  
